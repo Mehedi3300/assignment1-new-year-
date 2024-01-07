@@ -1,0 +1,33 @@
+/* body */
+body{
+    background: #FFF;
+}
+/* header section */
+header{
+    background-image: url("../resources/Banner\ Image.png");
+    margin-top:50px ;
+    margin-bottom:120px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1320px;
+    height: 600px;
+}
+.head-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 177px 530px 383px;
+}
+.head-des{
+    color: #200b0b;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; 
+    padding: 233px 344px 177px;
+    /* max-width: 632px;
+    max-height: 190px; */
+}
