@@ -1,10 +1,12 @@
 /* body */
 body{
     background: #FFF;
+    font-family: 'Merriweather', serif;
 }
 /* header section */
 header{
     background-image: url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
     margin-top:50px ;
     margin-bottom:120px ;
     margin-left: auto;
@@ -12,10 +14,12 @@ header{
     width: 1320px;
     height: 600px;
 }
+.header{
+    display: block;
+}
 .head-title{
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
     padding: 177px 530px 383px;
@@ -23,11 +27,86 @@ header{
 .head-des{
     color: #200b0b;
     text-align: center;
-    font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px; 
     padding: 233px 344px 177px;
     /* max-width: 632px;
     max-height: 190px; */
+}
+/* MAIN section */
+
+/* first section */
+.first{
+    text-align: center;
+}
+.off{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.offer{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.style{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/* second section */
+.second{
+    background-image: url("../resources/Vectorrr.png");
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+    max-width: 1320px;
+    max-height: 3000px;
+    margin: 120px auto;
+    justify-content: left;
+    border-radius: 20px;
+}
+/* .img{
+    max-width: 319.83px;
+    max-height: 464.662px;
+} */
+.welcome{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin: 50px 0 10px 40px;
+    max-width: 640px;
+    
+}
+.party-des{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 20% 10px 40px;
+}
+.btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0 0 40px;
+    background-image: url(../resources/Vectorrr.png);
+}
+.btn:hover{
+    
 }
