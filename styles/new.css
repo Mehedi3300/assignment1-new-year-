@@ -5,10 +5,9 @@ body{
 }
 /* header section */
 header{
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url("../resources/Banner\ Image.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
-    filter: brightness(7.04px);
+    /* filter: brightness(7.04px); */
     /* filter: contrast(10%); */
     border-radius: 16px;
     margin-top:50px ;
@@ -64,7 +63,7 @@ header{
 }
 /* second section */
 .second{
-    background-image: url("../resources/Vectorrr.png");
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../resources/Vectorrr.png");
     display: flex;
     background-repeat: no-repeat;
     background-position: bottom right,top left;
@@ -106,7 +105,7 @@ header{
     font-weight: 700;
     text-transform: uppercase;
     margin: 20px 0 0 40px;
-    background-image: url(../resources/Vectorrr2.png);
+    background-color: transparent;
 }
 /* third section */
 
@@ -116,7 +115,7 @@ header{
     margin: 120px auto;
     text-align: center;
     padding: 110px 0px 200px;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     
 }
 .style{
@@ -356,4 +355,56 @@ footer{
     height: 609px;
     background-color: #070211;
     margin: 120px auto 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
 }
+.address{
+    display: flex;
+    justify-content: space-between;
+
+}
+.location{
+    padding: 120px 0 0 140px;
+    max-width: 375px;
+}
+.contact{
+    padding: 120px 140px 0 0;
+    max-width: 375px;
+}
+.phn{
+    display: flex;
+}
+.web{
+    display: flex;
+}
+.contact-icon{
+    width: 24px;
+    height: 24px;
+}
+.contact-info{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.phn-icon{
+    margin-top: 128px;
+}
+.hr{
+    width: 1320px;
+    height: 1px;
+    color:#FFFFFF26;
+    margin: 0 140px;
+}
+.link-section{
+    gap: 24px;
+    padding: 48px 620px;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+}
+
+
