@@ -286,6 +286,12 @@ header{
     height: 450px;
     border-radius: 16px;
 }
+.portfolio-images1:hover img{
+    transform: scale(1.1);
+}
+.portfolio-images2:hover img{
+    transform: scale(1.1);
+}
 /* Eighth section */
 .eighth{
     width: 1320px;
