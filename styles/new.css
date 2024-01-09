@@ -203,7 +203,12 @@ header{
     max-width: 140px;
     max-height: 140px;
 }
-
+/* fifth section */
+.fifth{
+    width: 1600px;
+    height: 1000px;
+    margin: 0 auto;
+}
 .functional{
     color: #070211;
     font-family: Inter;
@@ -235,6 +240,26 @@ header{
     max-width: 1068px;
     margin: 0 auto;
 }
+.box{
+    position: relative;
+}
+.girl{
+    left: 1020px;
+    top: 30px;
+}
+.offer{
+    left: 430px;
+}
+.red{
+    left: 130px;
+    width: 1320px;
+    height: 229px;
+}
+.gift{
+    top: -630px;
+    left: 120px;
+}
+
 
 /* seventh section */
 .seventh{
@@ -371,27 +396,28 @@ footer{
     max-width: 375px;
 }
 .contact{
-    padding: 120px 140px 0 0;
-    max-width: 375px;
+    position: relative;
 }
-.phn{
-    display: flex;
+.mobile{
+    right: 140px;
+    top: 120px;
 }
-.web{
-    display: flex;
+.website{
+    right: 140px;
+    top: 92px;
+}
+.mobile-icon{
+    right: 170px;
+}
+.website-icon{
+    right: 200px;
+    top: 36px;
 }
 .contact-icon{
     width: 24px;
     height: 24px;
 }
-.contact-info{
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-}
-.phn-icon{
-    margin-top: 128px;
-}
+
 .hr{
     width: 1320px;
     height: 1px;
@@ -400,7 +426,7 @@ footer{
 }
 .link-section{
     gap: 24px;
-    padding: 48px 620px;
+    padding: 48px 632px 48px 640px ;
 }
 .last{
     display: flex;
